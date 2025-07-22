@@ -39,7 +39,7 @@ export default function PortfolioPage() {
   ]
 
   return (
-    <div className="min-h-screen bg-white pt-20">
+    <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-orange-600 pt-20">
       {/* Hero Section */}
       <section className="py-32 px-4">
         <div className="max-w-4xl mx-auto text-center">
@@ -47,7 +47,7 @@ export default function PortfolioPage() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-5xl md:text-7xl font-light mb-8 text-gray-900"
+            className="text-5xl md:text-7xl font-light mb-8 text-white"
           >
             Our Work
           </motion.h1>
@@ -55,7 +55,7 @@ export default function PortfolioPage() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed"
+            className="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed"
           >
             A curated selection of our most impactful projects, showcasing our commitment to exceptional visual
             storytelling.
@@ -102,10 +102,10 @@ export default function PortfolioPage() {
                   <div className="flex items-center justify-between">
                     <span className="text-sm text-gray-500 uppercase tracking-wider">{project.category}</span>
                   </div>
-                  <h3 className="text-2xl font-light text-gray-900 group-hover:text-gray-600 transition-colors">
+                  <h3 className="text-2xl font-light text-white group-hover:text-orange-500 transition-colors">
                     {project.title}
                   </h3>
-                  <p className="text-gray-600 leading-relaxed">{project.description}</p>
+                  <p className="text-gray-300 leading-relaxed">{project.description}</p>
                 </div>
               </motion.div>
             ))}
@@ -114,7 +114,7 @@ export default function PortfolioPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-32 bg-gray-50">
+      <section className="py-32 bg-gradient-to-r from-orange-800 to-gray-900">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -122,12 +122,12 @@ export default function PortfolioPage() {
           viewport={{ once: true }}
           className="max-w-4xl mx-auto text-center px-4"
         >
-          <h2 className="text-4xl md:text-5xl font-light mb-8 text-gray-900">Let's create your next project</h2>
-          <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-light mb-8 text-white">Let's create your next project</h2>
+          <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
             Ready to bring your vision to life? We'd love to hear about your project and explore how we can help tell
             your story.
           </p>
-          <Button size="lg" className="bg-gray-900 hover:bg-gray-800">
+          <Button size="lg" className="bg-orange-600 hover:bg-orange-700">
             Start a Conversation
           </Button>
         </motion.div>
