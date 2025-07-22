@@ -367,14 +367,14 @@ export default function FramelessCreativeAgency() {
           <div className="hidden md:grid md:grid-cols-2 lg:grid-cols-2 gap-8 justify-center max-w-4xl mx-auto">
             {[
               {
-                name: "Sarah Chen",
-                handle: "@sarahchen.films",
+                name: "Husni Lazy",
+                handle: "@husnilazy",
                 photo: "/placeholder.svg?height=400&width=300&text=Sarah+Chen",
                 signature: "SC",
               },
               {
-                name: "Marcus Rodriguez",
-                handle: "@marcusvisuals",
+                name: "Wildan Allaam",
+                handle: "@wildanallaam",
                 photo: "/placeholder.svg?height=400&width=300&text=Marcus+Rodriguez",
                 signature: "MR",
               },
@@ -418,14 +418,14 @@ export default function FramelessCreativeAgency() {
             <div className="flex gap-6 overflow-x-auto pb-4 scrollbar-hide">
               {[
                 {
-                  name: "Sarah Chen",
-                  handle: "@sarahchen.films",
+                  name: "Husni Lazy",
+                  handle: "@husnilazy",
                   photo: "/placeholder.svg?height=400&width=300&text=Sarah+Chen",
                   signature: "SC",
                 },
                 {
-                  name: "Marcus Rodriguez",
-                  handle: "@marcusvisuals",
+                  name: "Wildan Allaam",
+                  handle: "@wildanallaam",
                   photo: "/placeholder.svg?height=400&width=300&text=Marcus+Rodriguez",
                   signature: "MR",
                 },
@@ -472,7 +472,7 @@ export default function FramelessCreativeAgency() {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="text-white/80 text-sm mb-4 md:mb-0">
-              © Frameless Creative Media Agency — All Rights Reserved
+              ©2025 Frameless Creative Project PT — All Rights Reserved
             </div>
             <div className="flex items-center gap-6">
               <a href="#" className="text-white/60 hover:text-orange-400 transition-colors duration-300 hover:glow">
